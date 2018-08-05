@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    color: #333;
+    background: transparent
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: dodgerblue;
+}
+
+h2 {
+    margin: 1.5em 0;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+label {
+  color: dodgerblue;
+  font-weight: bold;
+  background: transparent;
+  font-weight: 18px;
+}
+
+input[type=number] {
+    width: 6em;
+    outline: 0;
+    padding: 5px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 10px;
+}
+
+input[type=number]:invalid {
+  border: 1px solid red;
+}
+
+input[type=number]:valid {
+  border: 1px solid green;
+}
+
+input[type=submit] {
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 6px;
+  background: dodgerblue;
+  color: white;
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
